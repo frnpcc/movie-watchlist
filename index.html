@@ -4,33 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
   <title>Document</title>
 </head>
 <body>
   <header>
-    <h1>Find your film</h1>
+    <div class="container">
+      <h1>Find your film</h1>
+    </div>
   </header>
   <main>
     <form id="search-form">
       <input type="text" id="search-input">
       <button>Search</button>
     </form>
-    <section id="movies-container">
-      <div class="movie-card">
-        <img src="assets/image.png" alt="">
-        <div>
-          <div class="movie-card-top">
-            <h2>Harry Potter</h2>
-            <p>⭐️ 9.3 </p>
-          </div>
-          <div class="movie-card-mid">
-            <p>300 min</p>
-            <p>Drama</p>
-          </div>
-          <p>This is the movies description</p>
-        </div>
-      </div>
-    </section>
+    <section id="movies-container" class="container"></section>
   </main>
   <script src="index.js"></script>
 </body>
