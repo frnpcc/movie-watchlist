@@ -1,0 +1,23 @@
+div.movie-card,
+div.movie-card-top,
+div.movie-card-mid {
+  display: flex;
+  align-items: center;
+}
+
+div.movie-card img {
+  height: 147.41px;
+  margin-right: 20px;
+}
+
+div.movie-card p {
+  margin: 0 10px 8px 0;
+}
+
+div.movie-card h2 {
+  margin: 11px 10px 11px 0;
+}
+
+div.movie-card {
+  margin-top: 20px;
+}
