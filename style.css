@@ -1,3 +1,58 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  margin: 0 42px;
+}
+
+header {
+  background-image:
+  linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+  url(https://images.unsplash.com/photo-1628432136678-43ff9be34064?q=80&w=2463&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 30%;
+  height: 208px;
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 800;
+  color: white;
+  font-size: 42.79px;
+}
+
+form {
+  display: flex;
+  width: 462px;
+  margin: -20px auto 44px;
+}
+
+form input {
+  width: 100%;
+  padding: 9px 41px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  border: 1px solid #D1D5DB;
+  border-radius: 6px 0 0 6px;
+  border-right: none;
+  color: #6B7280;
+}
+
+form button {
+  width: 120px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid #D1D5DB;
+  background: #F9FAFB;
+  border-radius: 0 6px 6px 0;
+}
+
 div.movie-card,
 div.movie-card-top,
 div.movie-card-mid {
@@ -7,17 +62,32 @@ div.movie-card-mid {
 
 div.movie-card img {
   height: 147.41px;
-  margin-right: 20px;
+  margin-right: 21px;
 }
 
 div.movie-card p {
-  margin: 0 10px 8px 0;
+  color: #111827;
+  font-size: 12px;
+  margin: 8px 19px 0 0;
 }
 
 div.movie-card h2 {
-  margin: 11px 10px 11px 0;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 11px 10px 11px 0
 }
 
 div.movie-card {
-  margin-top: 20px;
+  padding: 20px 0;
+  border-bottom: 1.5px solid #E5E7EB;
+}
+
+div.movie-card-end > p:last-child {
+  color: #6B7280;
+  font-size: 14px;
+}
+
+div#movies-container {
+  display: flex;
+  flex-direction: column;
 }
